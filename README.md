@@ -5,9 +5,12 @@ I've been dabling with vibecoding Quake 1 related things. I hope to eventually g
 After spending multiple hours fighting with ChatGPT trying to make a quake.map axis flipper, I got something that mostly worked. But, moving brushes like doors and lifts did not move correctly. As a result, it wasn't really playable. Some texture alignment issues were obvious as well. Additional prompts never resolved the issue and often caused new bugs. So, I gave up waiting for improvements with AI.
 
 A few months later, I decided to give it another go with Gemini 2.5. 
-Not having much hope and fully expecting a repeat of the ChatGPT issues, I gave it a simple prompt. It responded with a script I still haven't tried. I gave some clarifiactions reminding it about moving the entities and changing the targets of moving brushes. It spit out another script. I reminded it that texture alignment and a few other things also needed adjusted. It gave another script that I finally tested.
+Not having much hope and fully expecting a repeat of the ChatGPT issues, I gave it a simple prompt. It responded with a script I still haven't tried. 
+I did see in it's reasoning that it declined to make changes to the texture alignment. I told it to do it anyway. 
+I then reminded it about moving brushes, entities, and such. Simply asking for clarification if that had been accounted for. Instead of answering, it gave me new code.
+I tested that, and it was perfect in my couple test maps.
+I told it the results were good and it gave me another code block.
 
-It seemed to work perfect the first try.
 I tested it using the Quake 1 E1M1, E1M2, and DM1. I did not compile maps beyond that. If you do, please report back!
 
 # Useage
