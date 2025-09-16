@@ -33,7 +33,7 @@ A new, more robust version is available as a single HTML file: `index.html`.
 
 This version offers several advantages:
 - **No Python required:** Runs entirely in your browser.
-- **Improved UI:** Features a progress bar and a detailed log so you can see what's happening, preventing the browser from freezing on large files.
+- **Improved UI:** Features a progress bar and a detailed log so you can see what's happening, preventing the browser from freezing on large files. (though you may still get warnings from the browser that it is taking awhile)
 - **Broader Compatibility:** Supports both standard and modern Valve 220 texture formats in `.map` files.
 - **Easy to use:** Just select your file, choose the axes to flip, and click the "Flip Map" button. A download button will appear with your converted file.
 
