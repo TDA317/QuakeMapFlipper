@@ -13,10 +13,29 @@ I told it the results were good and it gave me another code block.
 
 I tested it using the Quake 1 E1M1, E1M2, and DM1. I did not compile maps beyond that. If you do, please report back!
 
-# Useage
+# Usage
 
-run the python script as you would any other. (python is obviously required)
-Pops up with a GUI. It asks for an input file, output file, and has check boxes for which axis you want to flip. Z makes it upside down, which is generally unplayable. 
+There are two versions of the tool available.
+
+## Python Version (Legacy)
+
+To use the original Python version, run one of the `QuakeMapFlipperV*.py` scripts with Python.
+```
+python QuakeMapFlipperV4.py
+```
+This will open a simple GUI. It asks for an input file, an output file, and has check boxes for which axis you want to flip. Z makes the map upside down, which is generally unplayable. This version may not support all `.map` formats.
+
+## HTML Version (Recommended)
+
+A new, more robust version is available as a single HTML file: `index.html`.
+
+**To use it, simply open `index.html` in a modern web browser.**
+
+This version offers several advantages:
+- **No Python required:** Runs entirely in your browser.
+- **Improved UI:** Features a progress bar and a detailed log so you can see what's happening, preventing the browser from freezing on large files.
+- **Broader Compatibility:** Supports both standard and modern Valve 220 texture formats in `.map` files.
+- **Easy to use:** Just select your file, choose the axes to flip, and click the "Flip Map" button. A download button will appear with your converted file.
 
 # License
 
